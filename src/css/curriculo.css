@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: o;
+}
+
+body {
+    background-color: #28724A;
+}
+
+#containerGeral{
+    width: 900px;
+    padding: 40px;
+    margin: 10px auto;
+    box-shadow: 10px 10px 8px rgb(39, 35, 35);
+    background-color: #FFFFFF; 
+}
+
+/* ------------ Formatações gerais ------------ */
+
+h1, h2{
+    color: #28724A;
+}
+
+span {
+    color: #28724A;
+    font-style: italic;
+    display: block;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a, a:link {
+    color: black;
+}
+
+/* ------------ Dados pessoais ------------ */
+
+.tituloFormacao {
+    margin-bottom: 20px;
+}
+
+.dadosPessoais p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.containerPessoal{
+    padding-left: 0;
+}
+
+.tituloPessoal, .tituloObjetivo, .tituloExperiencias, .tituloFormacao, .tituloAptidao{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #F0ECEC;
+}
+
+.tituloPessoal img, .tituloObjetivo img, .tituloExperiencias img, .tituloFormacao img, .tituloAptidao img {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+
+.tituloPessoal h2, .tituloObjetivo h2, .tituloExperiencias h2, .tituloFormacao h2, .tituloAptidao h2{
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.dadosPessoais{
+    display: flex;
+    margin-top: 15px;
+}
+
+.conteudoObjetivo, .experiencias, .formacoes, .conteudoAptidao{
+    margin-top: 10px;
+}
+
+.dadosPessoais-2{
+    padding-left: 30%;
+}
+
+.tituloExperiencia, .tituloFormacaoGeral {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tituloExperiencia h3 {
+    color: black;
+    font-weight: bold;
+}
+
+.dataExperiencia, .dataFormacao {
+    margin-top: 0px;
+}
+.conteudoAptidao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.conteudoAptidaoGeral {
+    display: flex;
+    gap: 100px;
+}
+
+.bolaVerde {
+    background-color: #28724A;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.bolaCinza {
+    background-color: #C4C4C4;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.attBolaVerde {
+    display: flex;
+    gap: 3px;
+}
